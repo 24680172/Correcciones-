@@ -129,4 +129,14 @@ El último bloque trata sobre la experiencia de usuario (UX) y la integridad de 
 - Formato de Diccionarios: Al mostrar el historial, el programa imprimía el objeto crudo de Python (ej. {'Taco': 2}). Para el usuario final, esto es confuso. La solución empleó una técnica de formateo mediante un list comprehension y el método .join(), transformando los datos en un texto legible y elegante: 2x Taco, 1x Agua.
 
 - Referencia a Atributos de Clase: El Bug 6 era un error de "scope" o alcance. Se intentaba manipular una lista local en lugar del atributo de la instancia (self.lista). Esto causaba que la interfaz no se refrescara correctamente. Al redirigir el flujo hacia el método _recargar() y apuntar a los controles de la instancia, se recuperó la reactividad de la aplicación.
+
+## Resultado final
+<img width="1562" height="874" alt="image" src="https://github.com/user-attachments/assets/02443702-d3c5-4793-9237-bfab7a9a5ded" />
+
+<img width="1562" height="877" alt="image" src="https://github.com/user-attachments/assets/c3bd5f16-abc3-4188-b53d-4890f875162b" />
+
+<img width="1550" height="857" alt="image" src="https://github.com/user-attachments/assets/41dd3a68-e2c7-4a03-84a8-2fe30a81e7a8" />
+
+<img width="1554" height="869" alt="image" src="https://github.com/user-attachments/assets/12434ad0-9b9f-4891-9c19-f0c600470f92" />
+
 </div>
